@@ -14,7 +14,7 @@ const port=2000;
 env.config();
 mongoose
   .connect(
-    `mongodb+srv://${process.env.MONGO_DB_USER}:${process.env.MONGO_DB_PASSWORD}@cluster0.rxemnue.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
+    `mongodb+srv://mohini:mohiniraut@cluster0.rxemnue.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
   )
   .then(() => {
     console.log("Database connected");
